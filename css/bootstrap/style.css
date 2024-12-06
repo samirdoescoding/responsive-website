@@ -1,0 +1,54 @@
+body {
+    background-color: #F3F1FF;
+}
+
+.bg-violet {
+    background-color: #562EFF;
+}
+
+.text-violet {
+    color: #562EFF;
+}
+
+.img-40px {
+    width: 40.42px;
+}
+
+.fs-24px {
+    font-size: 24px;
+}
+
+.player-photo {
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
+    font-size: 18px;
+}
+
+.card {
+    border: none;
+}
+
+.bg-light-red {
+    background-color: #FFE4E8;
+}
+
+.card-shadow {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.text-pink {
+    color: #FF4A60;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+@media (width > 768px) {
+    .link-color {
+        color: white;
+    }
+}

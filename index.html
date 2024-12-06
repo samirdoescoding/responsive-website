@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap/style.css" />
+  </head>
+  <body>
+    <!-- ========== Start navbar Section ========== -->
+    <header class="bg-violet">
+      <div class="container">
+        <nav class="navbar bg-violet navbar-expand-md">
+          <div class="container-fluid">
+            <!-- logo -->
+            <a class="navbar-brand" href="#">
+              <img src="images/icons/logo.png" alt="logo" class="img-40px" />
+              <span class="text-white">idea</span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <img src="images/icons/profile.png" alt="" />
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul
+                  class="navbar-nav d-flex justify-content-end flex-grow-1 gap-3"
+                >
+                  <li class="nav-item">
+                    <a
+                      class="nav-link link-color"
+                      aria-current="page"
+                      href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-color" href="#"
+                      >About</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link link-color" href="#"
+                      >Works</a
+                    >
+                  </li>
+                  <li class="nav-item d-none d-sm-none d-md-block">
+                    <img src="images/icons/profile.png" alt=""/>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- ========== End navbar Section ========== -->
+    <!-- ========== Start top-player and top-blog Section ========== -->
+    <main>
+      <!-- top-player-section -->
+      <section class="container bg-white mt-3 rounded pt-3">
+        <!-- top-player-section -->
+        <div class="top-player-section px-4">
+          <h2 class="text-violet fs-24px mt-3 mb-5">Top player</h2>
+          <div class="row mb-5">
+            <!-- col-1 -->
+            <div class="col-md-4">
+              <!-- player-1 -->
+              <div class="mb-4">
+                <img
+                  src="images/players/player-1.png"
+                  alt=""
+                  class="player-photo"
+                />
+                <span class="player-name">John Smith</span>
+              </div>
+              <!-- player-2 -->
+              <div class="mb-4">
+                <img
+                  src="images/players/player-2.png"
+                  alt=""
+                  class="player-photo"
+                />
+                <span class="player-name">Shajedul Karim</span>
+              </div>
+            </div>
+            <!-- col-2 -->
+            <div class="col-md-4">
+              <!-- player-1 -->
+              <div class="mb-4">
+                <img
+                  src="images/players/player-3.png"
+                  alt=""
+                  class="player-photo"
+                />
+                <span class="player-name">John Smith</span>
+              </div>
+              <!-- player-2 -->
+              <div class="mb-4">
+                <img
+                  src="images/players/player-4.png"
+                  alt=""
+                  class="player-photo"
+                />
+                <span class="player-name">Shajedul Karim</span>
+              </div>
+            </div>
+            <!-- col-3 -->
+            <div class="col-md-4">
+              <!-- player-1 -->
+              <div class="mb-4">
+                <img
+                  src="images/players/player-5.png"
+                  alt=""
+                  class="player-photo"
+                />
+                <span class="player-name">John Smith</span>
+              </div>
+              <!-- player-2 -->
+              <div>
+                <img
+                  src="images/players/player-6.png"
+                  alt=""
+                  class="player-photo"
+                />
+                <span class="player-name">Shajedul Karim</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="hr-line" />
+        <!-- top-blog-section -->
+        <div class="top-blog-section px-4">
+          <h2 class="text-violet fs-24px my-4">Top Blog</h2>
+          <!-- row-1 -->
+          <div class="row d-flex justify-content-between">
+            <!-- col-1 -->
+            <div class="col-md-6">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img
+                      src="images/blogs/blog-1.png"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        13 of My Favorite UI/UX Goodies
+                      </h5>
+                      <p class="card-text">
+                        <small class="text-body-secondary"
+                          >By <span class="text-violet">Dani Sapio</span></small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- col-2 -->
+            <div class="col-md-6">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img
+                      src="images/blogs/blog-2.png"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title">UI cheat sheet: list vs grids</h5>
+                      <p class="card-text">
+                        <small class="text-body-secondary"
+                          >By
+                          <span class="text-violet">By Tess Gadd</span></small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- row-2 -->
+          <div class="row d-flex justify-content-between">
+            <!-- col-1 -->
+            <div class="col-md-6">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img
+                      src="images/blogs/blog-3.png"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        13 of My Favorite UI/UX Goodies
+                      </h5>
+                      <p class="card-text">
+                        <small class="text-body-secondary"
+                          >By <span class="text-violet">Dani Sapio</span></small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- col-2 -->
+            <div class="col-md-6">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-6">
+                    <img
+                      src="images/blogs/blog-4.png"
+                      class="img-fluid rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <h5 class="card-title">UI cheat sheet: list vs grids</h5>
+                      <p class="card-text">
+                        <small class="text-body-secondary"
+                          >By
+                          <span class="text-violet">By Tess Gadd</span></small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ========== End top-player and top-blog Section ========== -->
+    <!-- ========== Start Latest-course Section ========== -->
+    <section class="container mt-3 bg-white rounded mb-3 py-3">
+      <div class="latest-course-section px-3">
+        <h2 class="text-violet fs-24px my-3">Latest Course</h2>
+        <div class="row">
+          <!-- card-1 -->
+          <div class="col-md-6 col-lg-4 mb-3 d-flex justify-content-center">
+            <div class="card card-shadow rounded-5" style="width: 100%">
+              <img
+                src="images/courses/course-1.png"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">React - The Complete Guide 2020</h4>
+                <h6 class="text-danger">Reed Krakoff.</h6>
+                <div
+                  class="rating-container d-flex justify-content-between align-items-center"
+                >
+                  <div class="rating-uptime">
+                    <!-- rating stars -->
+                    <!-- star-1 -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      enable-background="new 0 0 24 24"
+                      height="15px"
+                      viewBox="0 0 24 24"
+                      width="15px"
+                      fill="#FFC014"
+                    >
+                      <g>
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                      </g>
+                      <g>
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"
+                        />
+                      </g>
+                    </svg>
+                    <!-- star-2 -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      enable-background="new 0 0 24 24"
+                      height="15px"
+                      viewBox="0 0 24 24"
+                      width="15px"
+                      fill="#FFC014"
+                    >
+                      <g>
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                      </g>
+                      <g>
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"
+                        />
+                      </g>
+                    </svg>
+                    <!-- star-3 -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      enable-background="new 0 0 24 24"
+                      height="15px"
+                      viewBox="0 0 24 24"
+                      width="15px"
+                      fill="#FFC014"
+                    >
+                      <g>
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                      </g>
+                      <g>
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"
+                        />
+                      </g>
+                    </svg>
+                    <!-- star-4 -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      enable-background="new 0 0 24 24"
+                      height="15px"
+                      viewBox="0 0 24 24"
+                      width="15px"
+                      fill="#FFC014"
+                    >
+                      <g>
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                      </g>
+                      <g>
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"
+                        />
+                      </g>
+                    </svg>
+                    <!-- star-5 -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      enable-background="new 0 0 24 24"
+                      height="15px"
+                      viewBox="0 0 24 24"
+                      width="15px"
+                      fill="#e8eaed"
+                    >
+                      <g>
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                      </g>
+                      <g>
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"
+                        />
+                      </g>
+                    </svg>
+                    <!-- rating-text -->
+                    <span class="text-secondary">4.5</span>
+                  </div>
+                  <!-- up-time -->
+                  <div
+                    class="up-time bg-light-red rounded-4 p-1 d-flex align-items-center justify-content-between w-30"
+                  >
+                    <!-- clock  -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20px"
+                      viewBox="0 0 24 24"
+                      width="20px"
+                      fill="#FF4A60"
+                    >
+                      <path d="M0 0h24v24H0V0z" fill="none" />
+                      <path
+                        d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                      />
+                    </svg>
+                    <!-- time -->
+                    <div class="text-pink">01:30 hr</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="col-md-6 col-lg-4 mb-3 d-flex justify-content-center">
+            <div class="card card-shadow rounded-5" style="width: 100%">
+              <img
+                src="images/courses/course-2.png"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">Powerpoint 2020 Master Course</h4>
+                <h6 class="text-danger">Walter Scott.</h6>
+                <div
+                  class="rating-container d-flex justify-content-between align-items-center"
+                >
+                  <div class="rating-uptime">
+                    <!-- rating stars -->
+                    <!-- star-1 -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      enable-background="new 0 0 24 24"
+                      height="15px"
+                      viewBox="0 0 24 24"
+                      width="15px"
+                      fill="#FFC014"
+                    >
+                      <g>
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                      </g>
+                      <g>
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"
+                        />
+                      </g>
+                    </svg>
+                    <!-- star-2 -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      enable-background="new 0 0 24 24"
+                      height="15px"
+                      viewBox="0 0 24 24"
+                      width="15px"
+                      fill="#FFC014"
+                    >
+                      <g>
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                      </g>
+                      <g>
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"
+                        />
+                      </g>
+                    </svg>
+                    <!-- star-3 -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      enable-background="new 0 0 24 24"
+                      height="15px"
+                      viewBox="0 0 24 24"
+                      width="15px"
+                      fill="#FFC014"
+                    >
+                      <g>
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                      </g>
+                      <g>
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"
+                        />
+                      </g>
+                    </svg>
+                    <!-- star-4 -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      enable-background="new 0 0 24 24"
+                      height="15px"
+                      viewBox="0 0 24 24"
+                      width="15px"
+                      fill="#FFC014"
+                    >
+                      <g>
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                      </g>
+                      <g>
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"
+                        />
+                      </g>
+                    </svg>
+                    <!-- star-5 -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      enable-background="new 0 0 24 24"
+                      height="15px"
+                      viewBox="0 0 24 24"
+                      width="15px"
+                      fill="#e8eaed"
+                    >
+                      <g>
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                      </g>
+                      <g>
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"
+                        />
+                      </g>
+                    </svg>
+                    <!-- rating-text -->
+                    <span class="text-secondary">4.5</span>
+                  </div>
+                  <!-- up-time -->
+                  <div
+                    class="up-time bg-light-red rounded-4 p-1 d-flex align-items-center justify-content-between w-30"
+                  >
+                    <!-- clock  -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20px"
+                      viewBox="0 0 24 24"
+                      width="20px"
+                      fill="#FF4A60"
+                    >
+                      <path d="M0 0h24v24H0V0z" fill="none" />
+                      <path
+                        d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                      />
+                    </svg>
+                    <!-- time -->
+                    <div class="text-pink">01:30 hr</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div class="col-md-6 col-lg-4 mb-3 d-flex justify-content-center">
+            <div class="card card-shadow rounded-5" style="width: 100%">
+              <img
+                src="images/courses/course-3.png"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h4 class="card-title">Complete JavaScript Course 2020</h4>
+                <h6 class="text-danger">Reed Krakoff.</h6>
+                <div
+                  class="rating-container d-flex justify-content-between align-items-center"
+                >
+                  <div class="rating-uptime">
+                    <!-- rating stars -->
+                    <!-- star-1 -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      enable-background="new 0 0 24 24"
+                      height="15px"
+                      viewBox="0 0 24 24"
+                      width="15px"
+                      fill="#FFC014"
+                    >
+                      <g>
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                      </g>
+                      <g>
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"
+                        />
+                      </g>
+                    </svg>
+                    <!-- star-2 -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      enable-background="new 0 0 24 24"
+                      height="15px"
+                      viewBox="0 0 24 24"
+                      width="15px"
+                      fill="#FFC014"
+                    >
+                      <g>
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                      </g>
+                      <g>
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"
+                        />
+                      </g>
+                    </svg>
+                    <!-- star-3 -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      enable-background="new 0 0 24 24"
+                      height="15px"
+                      viewBox="0 0 24 24"
+                      width="15px"
+                      fill="#FFC014"
+                    >
+                      <g>
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                      </g>
+                      <g>
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"
+                        />
+                      </g>
+                    </svg>
+                    <!-- star-4 -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      enable-background="new 0 0 24 24"
+                      height="15px"
+                      viewBox="0 0 24 24"
+                      width="15px"
+                      fill="#FFC014"
+                    >
+                      <g>
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                      </g>
+                      <g>
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"
+                        />
+                      </g>
+                    </svg>
+                    <!-- star-5 -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      enable-background="new 0 0 24 24"
+                      height="15px"
+                      viewBox="0 0 24 24"
+                      width="15px"
+                      fill="#e8eaed"
+                    >
+                      <g>
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                      </g>
+                      <g>
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"
+                        />
+                      </g>
+                    </svg>
+                    <!-- rating-text -->
+                    <span class="text-secondary">4.5</span>
+                  </div>
+                  <!-- up-time -->
+                  <div
+                    class="up-time bg-light-red rounded-4 p-1 d-flex align-items-center justify-content-between w-30"
+                  >
+                    <!-- clock  -->
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20px"
+                      viewBox="0 0 24 24"
+                      width="20px"
+                      fill="#FF4A60"
+                    >
+                      <path d="M0 0h24v24H0V0z" fill="none" />
+                      <path
+                        d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"
+                      />
+                    </svg>
+                    <!-- time -->
+                    <div class="text-pink">01:30 hr</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== End Latest-course Section ========== -->
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
